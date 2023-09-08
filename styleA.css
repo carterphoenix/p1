@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: top;
+    display: flex;
+    align-items: center-top;
+    justify-content: center;
+    border-top: 1px solid #687291;
+    font-size: 40px;
+}
+
+.box:nth-child(even) {
+    background-color: #eeeff2;
+	text-align: top;
+}
+
+.box:nth-child(odd) {
+    background-color: #dfe1e7;
+	text-align: top;
+}
+
+.special-box {
+    width: 100px;
+    height: 100px;
+    text-align: top;
+    display: flex;
+    align-items: center-top;
+    justify-content: center;
+    border: 4px solid #000;
+    font-size: 40px;
+    color: #000000;
+	background-color: #687291
+}
