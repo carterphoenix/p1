@@ -1,24 +1,25 @@
 body {
     margin-bottom: 0;
     padding: 0;
-  }
-  
-  /* Container for the first five boxes */
-  .container-B {
+    list-style: none;
+}
+
+/* Container for all boxes */
+.container-B {
     display: flex;
     gap: 10px;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row; /* Change this to "row" */
     justify-content: flex-start;
-  }
-  
-  /* Individual box styling for the first five boxes */
-  .box-B {
+}
+
+/* Individual box styling */
+.box-B {
     width: 100px;
     height: 150px;
     border-left: 10px dotted #d0d0ff;
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* This line is not necessary as it's already set in .container-B */
     align-items: center;
     justify-content: center;
     font-family: Tahoma, sans-serif;
@@ -27,42 +28,18 @@ body {
     margin-bottom: 25px;
     margin-top: 10px;
     margin-right: 20px;
-  }
-  
-  /* Container for the last box */
-  .container-B {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  
-  /* Individual box styling for the last box */
-  .box-B {
-    width: 100px;
-    height: 150px;
-    border-left: 10px dotted #d0d0ff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: Tahoma, sans-serif;
-    font-size: 40px;
-    background-color: #eeeff2;
-    flex-direction: row;
-  }
-  
-  /* Change box and font colors on hover */
-  .box-B:hover,
-  .box-B:hover {
+}
+
+/* Change box and font colors on hover */
+.box-B:hover {
     cursor: pointer;
     background-color: yellow;
     color: black;
-  }
-  
-  /* Add space between letters and box edges */
-  .box-B,
-  .box-B {
+}
+
+/* Add space between letters and box edges */
+.box-B {
     padding: 10px;
     color: black;
-  }
+}
   
