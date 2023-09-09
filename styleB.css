@@ -20,8 +20,8 @@ body {
     border-left: 10px dotted #d0d0ff;
     display: flex;
     flex-direction: row; /* This line is not necessary as it's already set in .container-B */
-    align-items: center;
-    justify-content: center;
+    align-items: top;
+    justify-content: left;
     font-family: Tahoma, sans-serif;
     font-size: 40px;
     background-color: #eeeff2;
