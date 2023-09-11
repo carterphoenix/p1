@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.box {
+.box-A {
     width: 100px;
     height: 100px;
     text-align: top;
@@ -24,12 +24,12 @@ body {
     font-size: 40px;
 }
 
-.box:nth-child(even) {
+.box-A:nth-child(even) {
     background-color: #eeeff2;
 	text-align: top;
 }
 
-.box:nth-child(odd) {
+.box-A:nth-child(odd) {
     background-color: #dfe1e7;
 	text-align: top;
 }
