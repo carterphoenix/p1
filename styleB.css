@@ -43,8 +43,6 @@ body {
     color: black;
 }
 
-.container-last-box {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.box-B:last-child {
+  margin-top: 500px;
 }
