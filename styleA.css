@@ -34,7 +34,7 @@ body {
 	text-align: top;
 }
 
-#boxF {
+.box-A:last-child {
     width: 100px;
     height: 100px;
     text-align: top;
